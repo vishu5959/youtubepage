@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+}
+.fixed{
+    height: 100vh;
+    width: 15%;
+    position: fixed;
+}
+main{
+    width: 85%;
+    margin-left: 15%;
+    position: absolute;
+}
+nav{
+    width: 100%;
+    display: flex;
+    position: relative;
+    left: 15%;
+}
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    border: 1px solid #ddd;
+    height: 35px;
+    display: flex;
+    padding-left: 10px;
+}
+.search{
+    height: 100%;
+    width: 500px;
+    border: none;
+}
+button{
+    height: 100%;
+    
+    border: none;
+}
+.icon{
+    margin-left: 180px;
+    right: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.v-portion{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.video{
+    background-color: rgb(245, 245, 245);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.info-bar{
+    width: 320px;
+    display: flex;
+}
+.detail{
+    width: 250px;
+    margin-left: 10px;
+    
+}
+.top{
+    font-size: 18px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+.fixed{
+     padding-left: 30px;
+     padding-right: 40px;
+}
+.yout{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 7px;
+    margin-bottom: 40px;
+}
+
+.bars{
+    font-size: 18px;
+    padding-top: 15px;
+}
+.list{
+    display: flex;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+hr{
+    margin-bottom: 30px;
+    
+}
+
+
